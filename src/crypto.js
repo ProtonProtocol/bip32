@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const createHash = require('create-hash');
+const createHash = require('create-hash/browser');
 const createHmac = require('create-hmac');
 function hash160(buffer) {
     const sha256Hash = createHash('sha256')

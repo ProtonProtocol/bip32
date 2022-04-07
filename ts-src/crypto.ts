@@ -1,4 +1,4 @@
-const createHash = require('create-hash');
+const createHash = require('create-hash/browser');
 const createHmac = require('create-hmac');
 
 export function hash160(buffer: Buffer): Buffer {

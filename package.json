@@ -1,5 +1,5 @@
 {
-  "name": "bip32",
+  "name": "@proton/bip32",
   "version": "3.0.1",
   "description": "A BIP32 compatible library",
   "keywords": [
